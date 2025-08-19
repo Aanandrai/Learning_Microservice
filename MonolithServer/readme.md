@@ -1,5 +1,9 @@
-### Monolithserver
+### MonolithServer
 This directory contains a simple monolithic Node.js project with two routes: **"/"** and **"/stress-test"**. The project is stress-tested using a separate test script to demonstrate the limitations of a monolithic architecture.
+
+
+to run monolithServer code  
+**node app.js**  
 
 
 
@@ -56,3 +60,7 @@ Duration (seconds): 30.23
 URL: http://localhost:3000/stress-test  
 Number of requests:  0  
 Duration (seconds): 30.22  
+
+
+
+In loop 2, the monolithic architecture fails under heavy load, highlighting the need for a microservices architecture. Microservices allow individual components to be scaled independently, improving overall system resilience and scalability.
