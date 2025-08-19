@@ -6,30 +6,30 @@ This directory contains a simple monolithic Node.js project with two routes: **"
 
 ### test file
 
-This directory contains a Node.js script that performs a stress test using the autocannon npm package.
-To run the test
-    **cd test**  
-    **node test.js**  
+This directory contains a Node.js script that performs a stress test using the autocannon npm package.  
+To run the test  
+    **cd test**    
+    **node test.js**   
 
 
 ## Case1
 
-### for loop 1
+### for loop 1  
 
-**for(let i=0;i<1000000;i++)**
+**for(let i=0;i<1000000;i++)**  
 
-10 connections (default)
+10 connections (default)  
 
 
 **condition 1**
 
-Only one route of **"/"**
+Only one route of **"/"**  
 
-URL: http://localhost:3000
-Number of requests:  31K
-Duration (seconds): 30.03
+URL: http://localhost:3000  
+Number of requests:  31K  
+Duration (seconds): 30.03  
 
-_________________________
+_________________________  
 
 **condition 2**
 
