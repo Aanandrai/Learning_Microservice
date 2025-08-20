@@ -33,14 +33,15 @@ This folder demonstrates a simple Node.js microservice architecture with four co
 ## Stress Test Results
 
 Example output from the test script:
-**URL: http://localhost:3000/**  
-**Number of requests:  26432**
-**Duration (seconds): 30.03**
+```
+URL: http://localhost:3000/ 
+Number of requests:  26432  
+Duration (seconds): 30.03 
 
-
-**URL: http://localhost:3000/stress-test**
-**Number of requests:  27131**
-**Duration (seconds): 30.03**
+URL: http://localhost:3000/stress-test  
+Number of requests:  27131
+Duration (seconds): 30.03  
+```
 
 While raw speed improvements may not be immediately apparent, the architecture excels in scalability and modularity. Individual services can be optimized or scaled as needed, without impacting the rest of the system.
 
