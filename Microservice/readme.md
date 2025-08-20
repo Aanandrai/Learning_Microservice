@@ -20,15 +20,16 @@ This folder demonstrates a simple Node.js microservice architecture with four co
 ## Stress Test Results
 
 Example output from the test script:
-**URL: http://localhost:3000/**   
-**Number of requests: 39**   
-**Duration (seconds): 30.27**  
+```
+URL: http://localhost:3000/  
+Number of requests: 39 
+Duration (seconds): 30.27
 
 
-**URL: http://localhost:3000/stress-test**  
-**Number of requests: 40**  
-**Duration (seconds): 30.29**
-
+URL: http://localhost:3000/stress-test
+Number of requests: 40
+Duration (seconds): 30.29
+```
 
 Based on these results, there is no significant performance improvement observed from transitioning to a microservices architecture in terms of request handling speed under current test conditions. However, the key advantage lies not in immediate speed gains but in scalability and modularity. With a microservices setup, individual components can be scaled or optimized independently.
 
