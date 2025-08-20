@@ -30,6 +30,8 @@ Example output from the test script:
 **Duration (seconds): 30.29**
 
 
+Based on these results, there is no significant performance improvement observed from transitioning to a microservices architecture in terms of request handling speed under current test conditions. However, the key advantage lies not in immediate speed gains but in scalability and modularity. With a microservices setup, individual components can be scaled or optimized independently.
+
 
 ## Running the Services
 
