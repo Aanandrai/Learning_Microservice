@@ -2,10 +2,8 @@
 This directory contains a simple monolithic Node.js project with two routes: **"/"** and **"/stress-test"**. The project is stress-tested using a separate test script to demonstrate the limitations of a monolithic architecture.
 
 
-to run monolithServer code  
+To run monolithServer code  
 **node app.js**  
-
-
 
 
 ### test file
@@ -41,7 +39,8 @@ With two route **"/"** and **"/stress-test"**
 
 URL: http://localhost:3000  
 Number of requests:  17001  
-Duration (seconds): 30.03  
+Duration (seconds): 30.03
+
 URL: http://localhost:3000/stress-test  
 Number of requests:  17240  
 Duration (seconds): 30.01  
@@ -56,7 +55,8 @@ With two route **"/"** and **"/stress-test"**
 
 URL: http://localhost:3000  
 Number of requests:  13  
-Duration (seconds): 30.23  
+Duration (seconds): 30.23 
+
 URL: http://localhost:3000/stress-test  
 Number of requests:  0  
 Duration (seconds): 30.22  
